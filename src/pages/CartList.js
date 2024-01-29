@@ -1,6 +1,9 @@
 import { CartCard } from "../components/CartCard";
+import { useTitle } from "../hooks/useTitle";
 
 export const CartList = () => {
+  useTitle("Cart");
+
   const products = [
     {
       id: 1,
