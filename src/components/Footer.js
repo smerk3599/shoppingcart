@@ -3,13 +3,9 @@ import "./Footer.css";
 
 export const Footer = () => {
   return (
-    <footer className="">
-      <span className="">
-        © 2030{" "}
-        <Link to="/" className="">
-          Shopping Cart
-        </Link>
-        . All Rights Reserved.
+    <footer>
+      <span>
+        © 2030 <Link to="/">Shopping Cart</Link>. All Rights Reserved.
       </span>
       <ul className="links">
         <li>
@@ -17,7 +13,6 @@ export const Footer = () => {
             href="https://www.linkedin.com/in/stevemercer9913/"
             target="_blank"
             rel="noreferrer"
-            className="mr-4 hover:underline md:mr-6"
           >
             LinkedIn
           </a>
@@ -27,7 +22,6 @@ export const Footer = () => {
             href="https://github.com/smerk3599"
             target="_blank"
             rel="noreferrer"
-            className="hover:underline"
           >
             Github
           </a>
