@@ -29,6 +29,10 @@ header {
   border-radius: 5px;
 }
 
+.items {
+  width: 75px;
+}
+
 @media screen and (max-width: 680px) {
   .navigation {
     display: none;
