@@ -6,7 +6,7 @@ footer {
   max-width: 1200px;
   margin: auto;
   border-top: 1px solid #eeeeee;
-  font-size: 18px;
+  font-size: 2vw;
   padding: 0px 10px;
 }
 
@@ -15,7 +15,7 @@ footer {
   height: 70px;
   max-width: 200px;
   align-items: center;
-  margin: auto 20px auto 200px;
+  margin: auto 20px auto 40vw;
   border-top: 1px solid #eeeeee;
   font-size: 18px;
   padding: 0px 10px;
@@ -23,4 +23,10 @@ footer {
 
 li {
   padding: 10px;
+}
+
+@media screen and (max-width: 680px) {
+  span {
+    display: none;
+  }
 }
